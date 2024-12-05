@@ -1,0 +1,226 @@
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: white;
+    height: 84px;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+    padding: 10px 20px;
+    margin-left: 50px;
+    margin-right: 78px;
+    position: relative;
+    
+}
+
+.navbar .nav-links {
+    display: flex; 
+    gap: 50px; 
+}
+
+.navbar .nav-links a {
+    text-decoration: none; 
+    color: #636060; 
+    font-size: 17px;
+    font-weight: 400; 
+    transition: color 0.3s ease; 
+}
+
+.navbar .nav-links a:hover {
+    color: #7746c7; 
+}
+
+#logo {
+    width: 30px;
+    height: 40px;
+}
+
+.burger-menu {
+    display: none;
+    width: 40px;
+    height: 40px;
+}
+
+
+@media screen and (max-width: 778px) {
+    .navbar .nav-links a {
+        display: none;
+    }
+
+    .burger-menu {
+        display: inline-block; 
+        
+    }
+
+    .navbar {
+        justify-content: space-between; 
+    }
+}
+
+.photo {
+    display: flex;
+    align-items: center;
+}
+
+.greece {
+    background-image: url(../images/greecephoto.png);
+    max-width: 100%;
+    height: 606px;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-size: contain;
+    background-size: cover;
+    background-size: 100% 100%;
+
+    @media screen and (max-width: 768px) {
+        height: 400px;
+        
+    }
+
+    @media screen and (max-width: 480px) {
+        height: 400px;
+        
+    }
+}
+
+
+
+
+
+#discovergreece {
+    font-size: 79px;
+    font-weight: 700;
+    color: #FFFFFF;
+    font-family: Helvetica, sans-serif;
+
+    @media screen and (max-width: 768px) {
+        font-size: 40px;
+        
+    }
+
+    @media screen and (max-width: 480px) {
+        font-size: 25px;
+        
+    }
+}
+ 
+#travel {
+    font-size: 19px;
+    font-family: 400;
+    color: #FFFFFF;
+    font-family: Helvetica, sans-serif;
+
+    @media screen and (max-width: 768px) {
+        font-size: 12px;
+        
+    }
+
+    @media screen and (max-width: 480px) {
+        font-size: 8px;
+        
+    }
+}
+
+
+.discover {
+    color: #636060;
+    font-size: 17px;
+    font-weight: 400;
+    font-family: Helvetica, sans-serif;
+}
+
+.services {
+    color: #010101;
+    font-size: 28px;
+    font-weight: 400;
+    margin-top: 9px;
+    font-family: Helvetica, sans-serif;
+}
+
+.text {
+    color: #636060;
+    font-size: 20px;
+    font-weight: 400;
+    max-width: 285px;
+    margin-top: 37px;
+    font-family: Helvetica, sans-serif;
+
+    @media screen and (max-width: 768px) {
+        font-size: 12px;
+        
+    }
+
+    @media screen and (max-width: 480px) {
+        font-size: 8px;
+        
+    }
+}
+
+.parent {
+    display: flex;
+    justify-content: space-around;
+}
+
+.servicestext {
+    margin-top: 84px;
+    margin-left: 100px;
+    margin-right: 100px;
+
+    @media screen  and (max-width: 768px) {
+        margin-right: 20px;
+        margin-left: 20px;
+        
+    }
+
+    @media screen  and (max-width: 400px) {
+        margin-right: 10px;
+        margin-left: 10px;
+        
+    }
+}
+
+.photoss {
+    margin-top: 84px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-right: 90px;
+}
+
+.picture {
+    width: 346px;
+    height: 195px;
+
+    
+    @media screen  and (max-width: 768px) {
+        width: 310px;
+        height: 200px;
+        
+    }
+
+    @media screen  and (max-width: 480px) {
+        width: 200px;
+        height: 100px;
+        
+    }
+}
+
+.name {
+    font-size: 19px;
+    color: #343232;
+    font-weight: 400;
+    margin-top: 23px;
+    font-family: Helvetica, sans-serif;
+}
+
+.discription {
+    max-width: 286px;
+    margin-bottom: 53px;
+}
